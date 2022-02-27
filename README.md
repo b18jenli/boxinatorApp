@@ -28,10 +28,11 @@ The following technologies can be used to replicate this project:
 
 ## Getting started
 
-1. Pull the project from Github. 
+1. Pull the project from Github and put it in your computers localhost directory (ususally htdocs or user > sites on MacOS)
 2. Open MySQL Workbench 
     > Connect lo localhost 
-    > Create database 'boxinator' and table 'boxes'. It should look like this:
+    > Create database 'boxinator' and Remember 'hostname', 'username' and 'password' to your localhost.  
+    > Create table 'boxes'. It should look like this:
     
     ```
     id              int PRIMARY KEY
@@ -41,4 +42,20 @@ The following technologies can be used to replicate this project:
     country         varchar(255)
     
    ```
-   
+3. OPen file 'dbcoonfig.php' and edit/enter the 'hostname', 'username' and 'password' to your localhost. 
+4. Open browser and enter 'localhost/addbox.php' in the adress field. You should now se this view:
+
+<img width="1429" alt="Skärmavbild 2022-02-28 kl  00 28 51" src="https://user-images.githubusercontent.com/49142647/155904601-e5ffd64e-c783-4b81-80e9-72f06c698018.png">
+
+5. Fill out form then click 'submit'. For box to be saved you have to fill all the fields and pass extra validation:
+    > Name must be letters only
+    > Weight can't be a negative number 
+    
+6. When a box is succesfully saved, an alert is executed and the page is reloaded. 
+7. To be able to see the newly stored box, click button 'see table' above form or 'Listboxes' in the navbar. You should then see this view: 
+
+<img width="1426" alt="Skärmavbild 2022-02-28 kl  00 29 19" src="https://user-images.githubusercontent.com/49142647/155904856-3dba8bc4-f0ad-4cc4-88b6-776f2cf72357.png">
+
+8. The table shows 'receiver', 'weight', 'colour' and 'shipping cost' for all the boxes inserted. 
+
+
