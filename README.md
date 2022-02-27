@@ -10,7 +10,6 @@ The project is located in the folder /boxinatorapp and contains the following fi
 - functions.js
 - styling.css
 
-There is also a mysql file with the database used for this project. 
 
 ## Technologies
 
@@ -29,4 +28,17 @@ The following technologies can be used to replicate this project:
 
 ## Getting started
 
-1. 
+1. Pull the project from Github. 
+2. Open MySQL Workbench 
+    > Connect lo localhost 
+    > Create database 'boxinator' and table 'boxes'. It should look like this:
+    
+    ```
+    id              int PRIMARY KEY
+    receiverName    varchar(255) NOT NULL
+    weight          int NOT NULL
+    colour          varchar(255) NOT NULL
+    country         varchar(255)
+    
+   ```
+   
