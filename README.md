@@ -52,10 +52,10 @@ The following technologies can be used to replicate this project:
     > Weight can't be a negative number 
     
 6. When a box is succesfully saved, an alert is executed and the page is reloaded. 
-7. To be able to see the newly stored box, click button 'see table' above form or 'Listboxes' in the navbar. You should then see this view: 
+7. Right now there is no auto redirection to the view 'Listboxes'. To be able to see the newly stored box, click button 'see table' above form or 'Listboxes' in the navbar. You should then see this view: 
 
 <img width="1426" alt="Skärmavbild 2022-02-28 kl  00 29 19" src="https://user-images.githubusercontent.com/49142647/155904856-3dba8bc4-f0ad-4cc4-88b6-776f2cf72357.png">
 
-8. The table shows 'receiver', 'weight', 'colour' and 'shipping cost' for all the boxes inserted. 
-
+8. The table shows 'receiver', 'weight', 'colour' and 'shipping cost' for all the boxes inserted. The colour picked in the form is also displayed. 
+9. There is currently no way to alter or delete boxes from the table/database but you can add as many as you like. 
 
