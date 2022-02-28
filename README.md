@@ -3,7 +3,7 @@ Boxinator is a single page application for calculating the shipping cost for box
 
 The project is located in the folder /boxinatorapp and contains the following files:
 
-- addbox.php
+- addbox.html
 - add_data.php
 - dbconfig.php
 - display_data.php
