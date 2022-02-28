@@ -43,7 +43,10 @@
       <div id="addbox" class="page container-fluid addboxPage">
         <div class="row justify-content-center">
           <div class="col-10">
-            <h2 class="headline">Add box</h2>
+
+            <h2 class="headline d-flex justify-content-between">Add box<button id="redirectBtn" class="btn btn-secondary" onclick="showpage('listboxes');">See table</button></h2>
+
+
 
 <!-- Form w. validation to store box in database ------------------------------>
 
@@ -76,7 +79,7 @@
       <div id="listboxes" class="page container-fluid listboxPage">
         <div class="row justify-content-center">
           <div class="col-10">
-            <h2 class="headline">Listboxes<button onclick="showpage('listboxes');">refresh table</button></h2>
+            <h2 class="headline d-flex justify-content-between">Listboxes<button id="redirectBtn" class="btn btn-secondary" onclick="showpage('addbox');">New insert</button></h2>
 
 <!-- Table displaying boxes from database ------------------------------------->
 
