@@ -44,14 +44,9 @@ $(document).ready(function() {
       },
       cache: false,
       success: function(data){
-
-
-          window.location.reload(true);
-          alert(data);
-
-          //showpage('listboxes');
-
-
+        window.location.reload(true);
+        alert(data);
+        showpage('listboxes');
       },
 
       error: function(xhr, status, error) {
